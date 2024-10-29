@@ -1,0 +1,75 @@
+.section-first {
+    width: 1140px;
+    margin: 0 auto;
+    padding-bottom: 92px;
+    border-bottom: 1px solid #7a7a7a;
+}
+
+.title-entertainment {
+    width: 735px;
+    height: 164px;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 82px;
+    color: #141414;
+    margin-top: 27px;
+    margin-bottom: 32px;
+}
+
+.span-entertainment {
+    height: 36px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: #bf6024;
+}
+
+.content-wrapper-entertainment {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 28px;
+    row-gap: 100px;
+    margin-top: 33px;
+}
+
+.wrapper-sport-entertainment {
+    max-width: 555px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+
+.wrapper-events-entertainment {
+    max-width: 555px;
+    height: 300px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+}
+
+.name-entertainment {
+    height: 18px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #141414;
+}
+
+.wrapper-tours-entertainment {
+    width: 555px;
+    height: 300px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row: 2;
+}
+
+
+
+.wrapper-Spa-entertainment {
+    width: 555px;
+    height: 300px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row: 2;
+}

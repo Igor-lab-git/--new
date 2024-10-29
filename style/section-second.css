@@ -1,0 +1,173 @@
+.link-hover:hover {
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
+.btn-hover:hover {
+    color: var(--font-color);
+    text-decoration: underline;
+}
+
+.section-second {
+    width: 1142px;
+    margin: 0 auto;
+    padding-bottom: 75px;
+    border-bottom: 1px solid #7A7A7A;
+}
+
+.title {
+    margin: 67px 0 31px 0;
+    height: 36px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--color-btn-title);
+}
+
+.accommodation-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.apartments-art{
+    position: relative;
+    width: 555px;
+    height: 600px;
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background: url(../img/MAIN/apartments.png);
+}
+
+.apartments-title {
+    position: absolute;
+    margin: 489px 299px 80px 34px;
+    height: 31px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #fff;
+}
+
+.apartments-btn {
+    position: absolute;
+    margin: 544px 376px 28px 34px;
+    padding: 5px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #E5C6B2;
+    background-color: var(--color-btn-title);
+    border-radius: 50px;
+}
+
+.apartments-link{
+    position: absolute;
+    margin: 544px 238px 28px 197px;
+    padding: 5px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    border: 1px solid #E5C6B2;
+    color: #E5C6B2;
+}
+
+.price-art {
+    position: relative;
+    width: 540px;
+    height: 285px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    background-color: var(--background-grey);
+}
+
+.price-content {
+    position: absolute;
+    margin: 84px 262px 139px 73px;
+    width: 210px;
+    height: 62px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--font-color);
+}
+
+.price-link {
+    position: absolute;
+    margin: 174px 323px 83px 73px;
+    padding: 5px 49px 5px 13px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    background: url(../img/MAIN/arrow.svg) no-repeat;
+    background-position: center right 10px;
+    color: var(--color-btn-title);
+    border: 1px solid var(--color-btn-title);
+    border-radius: 50px;
+}
+
+.services-art {
+    position: relative;
+    width: 540px;
+    height: 285px;
+    grid-column-start: 7;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: var(--background-grey);
+}
+
+.services-span{
+    position: absolute;
+    width: 275px;
+    height: 31px;
+    margin: 65px 198px 189px 73px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: var(--font-color);
+}
+
+.services-content {
+    position: absolute;
+    margin: 107px 205px 124px 73px;
+    width: 262px;
+    height: 54px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--font-color);
+}
+
+.services-rtn {
+    position: absolute;
+    margin: 184px 342px 73px 73px;
+    padding: 5px 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 50px;
+    background-color: var(--color-btn-title);
+    color: #E5C6B2;
+}
+
+.services-link {
+    position: absolute;
+    margin: 184px 220px 73px 210px;
+    padding: 5px 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    border-radius: 50px;
+    color: var(--color-btn-title);
+    border: 1px solid var(--color-btn-title);
+}
